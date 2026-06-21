@@ -4,7 +4,7 @@ import { ShoppingCart, Plus, Trash2, LogOut, Package, ClipboardList, X, Check, C
 // ---- IMPORTANT ----
 // Set this to your deployed backend URL (Render, etc), e.g. "https://your-app.onrender.com"
 // While developing locally, "http://localhost:3001" works.
-const API_BASE = "https://YOUR-BACKEND-URL.onrender.com";
+const API_BASE = "https://orderappbackend-yp8d.onrender.com";
 
 async function apiCall(path, { method = "GET", role, body, isFormData } = {}) {
   const headers = {};
